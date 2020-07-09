@@ -10,3 +10,34 @@
     margin-left: 0px;
 
 }
+input::placeholder{
+    font-style: italic;
+    font-weight: 300;
+    color: lightgray
+}
+#mybuttons{
+    vertical-align: baseline;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 2px 5px;
+    border : 1px solid rgba(175, 47, 47, 0.3); 
+    background: none;
+    font-size: 100%;
+    font-family: inherit;
+    color: inherit;
+    appearance: none;
+    margin-bottom: 10px;
+}
+.taskinput{
+    padding: 16px 16px 16px 16px;
+    border: none;
+    background: rgba(0, 0, 0, 0.03);
+    line-height: 1.4em;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 24px;
+    width: 80%;
+}
+.taskinput:focus{
+    outline: 0;
+}

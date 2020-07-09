@@ -1,9 +1,10 @@
 import React from 'react'
-
+import "./mystyle.css"
 export default class InputToDo extends React.Component{
     constructor(){
         super();
         this.inputRef = React.createRef()
+        this.placeholder = "What needs to be done"
     }
     
     render(){
@@ -17,10 +18,8 @@ export default class InputToDo extends React.Component{
         // }
         return(
             <>
-            <input placeholder = "Todo" 
-            ref = {this.inputRef}
-            // onKeyPress = {this.enterpress.bind(this)}
-            ></input>
+            <input className = "taskinput" placeholder = {this.placeholder}
+            ref = {this.inputRef}></input>
             <button 
             onClick = {() =>{
                 if(this.inputRef.current.value)
