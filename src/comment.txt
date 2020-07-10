@@ -1,0 +1,10 @@
+{/* <input className = "taskinput" placeholder = {this.placeholder}
+            ref = {this.inputRef}></input>
+            <button 
+            onClick = {() =>{
+                if(this.inputRef.current.value)
+                addTodo(this.inputRef.current.value)
+            }}
+            >
+                Add Todo</button>
+             </> */}

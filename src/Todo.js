@@ -9,7 +9,7 @@ export default class Todos extends React.Component{
         this.state = {
             todos : [{
                 title : "Help Someone",
-                active : 1
+                active  : 1,
             }],
             allTodos : [],
         }
@@ -24,6 +24,7 @@ export default class Todos extends React.Component{
             todos : newTodosArray,
             allTodos : newTodosArray
         })
+
     }
 
     

@@ -1,6 +1,5 @@
 import React from 'react'
 import './mystyle.css'
-
 export default class FilterTodo extends React.Component{
     constructor(){
         super();

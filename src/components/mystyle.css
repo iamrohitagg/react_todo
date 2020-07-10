@@ -6,13 +6,9 @@
     padding: 0;
     border-bottom: 1px solid #ededed;
 }
-#myspan{
-    margin-left: 0px;
-
-}
 input::placeholder{
     font-style: italic;
-    font-weight: 300;
+    font-weight: 600;
     color: lightgray
 }
 #mybuttons{
@@ -20,7 +16,7 @@ input::placeholder{
     margin-left: 3px;
     margin-right: 3px;
     padding: 2px 5px;
-    border : 1px solid rgba(175, 47, 47, 0.3); 
+    border : 1px solid rgba(175, 171, 175, 0.6);
     background: none;
     font-size: 100%;
     font-family: inherit;
@@ -36,8 +32,26 @@ input::placeholder{
     font-family: inherit;
     font-weight: inherit;
     font-size: 24px;
+    width: 100%;
+    border-bottom: 1px solid rgba(175, 171, 175, 0.4);
+}
+.myspan{
     width: 80%;
 }
 .taskinput:focus{
     outline: 0;
+}
+
+.deletebutton{
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 3px;
+    padding: 2px 5px;
+    border : 1px solid rgba(175, 171, 175, 0.6);
+    background: none;
+    font-size: 60%;
+    font-family: inherit;
+    color: inherit;
+    appearance: none;
+    margin-bottom: 10px;
 }
