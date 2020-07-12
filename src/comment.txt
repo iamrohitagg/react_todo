@@ -8,3 +8,7 @@
             >
                 Add Todo</button>
              </> */}
+             {/* <button className = "deletebutton" onClick = {() =>{
+                            this.props.deleteTodo(item)
+                        }}
+                        >Delete</button> */}

@@ -15,8 +15,6 @@ export default class InputToDo extends React.Component{
         }
     }
     render(){
-        
-        
         return(
             <>
              <input className = "taskinput" placeholder = {this.placeholder}

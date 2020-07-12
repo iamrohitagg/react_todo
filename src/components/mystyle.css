@@ -43,15 +43,18 @@ input::placeholder{
 }
 
 .deletebutton{
-    position: absolute;
-    margin-left: 100px;
-    margin-right: 3px;
+    position: relative;
+    top: 0;
+    bottom: 0;
     padding: 2px 5px;
-    border : 1px solid rgba(175, 171, 175, 0.6);
+    border : 0px;
     background: none;
-    font-size: 60%;
+    font-size: 30px;
     font-family: inherit;
-    color: inherit;
+    color: palevioletred;
     appearance: none;
     margin-bottom: 10px;
+    font-weight: 900;
+    content: '×';
+    margin-bottom: 11px;
 }

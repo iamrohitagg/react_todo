@@ -18,20 +18,15 @@ export default class ListTodo extends React.Component{
                         style = {{
                             textDecoration : !item.active ? "line-through" : "none"}}
                         >
-                            {item.title}
-                            <button className = "deletebutton" onClick = {() =>{
+                            {item.title}</span>
+                        <button  className = "deletebutton" onClick = {() =>{
                             this.props.deleteTodo(item)
                         }}
-                        >Delete</button>    
-                        </span>
-                        {/* <button className = "deletebutton" onClick = {() =>{
-                            this.props.deleteTodo(item)
-                        }}
-                        >Delete</button> */}
+                        >×</button>
                         </li>
                 )}
             </ul>
             </>
         )
     }
-}
+} 
