@@ -8,60 +8,60 @@ export default class Todos extends React.Component {
     super();
     this.state = {
       todos: [],
-      allTodos: []
+      allTodos: [],
     };
   }
 
-  addTodo = title => {
+  addTodo = (title) => {
     let todo = {
       title,
-      active: 1
+      active: 1,
     };
     let newTodosArray = [...this.state.todos, todo];
     this.setState({
       todos: newTodosArray,
-      allTodos: newTodosArray
+      allTodos: newTodosArray,
     });
   };
 
-  updateTodo = todo => {
+  updateTodo = (todo) => {
     let todoObjectIndex = this.state.todos.indexOf(todo);
     let previousArray = [...this.state.todos];
     previousArray[todoObjectIndex].active = !previousArray[todoObjectIndex]
       .active;
     this.setState({
       todos: previousArray,
-      allTodos: previousArray
+      allTodos: previousArray,
     });
   };
 
-  deleteTodo = todo => {
+  deleteTodo = (todo) => {
     let todoObjectIndex = this.state.todos.indexOf(todo);
     let previousArray = [...this.state.todos];
     previousArray.splice(todoObjectIndex, 1);
     this.setState({
       todos: previousArray,
-      allTodos: previousArray
+      allTodos: previousArray,
     });
   };
 
-  filterTodos = filter => {
+  filterTodos = (filter) => {
     switch (filter) {
       case "Active":
-        let activeTodos = this.state.allTodos.filter(todo => todo.active);
+        let activeTodos = this.state.allTodos.filter((todo) => todo.active);
         this.setState({
-          todos: activeTodos
+          todos: activeTodos,
         });
         break;
       case "Completed":
-        let completedTodos = this.state.allTodos.filter(todo => todo.active);
+        let completedTodos = this.state.allTodos.filter((todo) => todo.active);
         this.setState({
-          todos: completedTodos
+          todos: completedTodos,
         });
         break;
       default:
         this.setState({
-          todos: [...this.state.allTodos]
+          todos: [...this.state.allTodos],
         });
     }
   };

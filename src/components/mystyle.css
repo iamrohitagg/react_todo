@@ -1,60 +1,60 @@
-.mylist{
-    list-style-type: none;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4d4d4d;
-    padding: 0;
-    border-bottom: 1px solid #ededed;
+.mylist {
+  list-style-type: none;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d4d4d;
+  padding: 0;
+  border-bottom: 1px solid #ededed;
 }
-input::placeholder{
-    font-style: italic;
-    font-weight: 600;
-    color: lightgray
+input::placeholder {
+  font-style: italic;
+  font-weight: 600;
+  color: lightgray;
 }
-#mybuttons{
-    vertical-align: baseline;
-    margin-left: 3px;
-    margin-right: 3px;
-    padding: 2px 5px;
-    border : 1px solid rgba(175, 171, 175, 0.6);
-    background: none;
-    font-size: 100%;
-    font-family: inherit;
-    color: inherit;
-    appearance: none;
-    margin-bottom: 10px;
+#mybuttons {
+  vertical-align: baseline;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 2px 5px;
+  border: 1px solid rgba(175, 171, 175, 0.6);
+  background: none;
+  font-size: 100%;
+  font-family: inherit;
+  color: inherit;
+  appearance: none;
+  margin-bottom: 10px;
 }
-.taskinput{
-    padding: 16px 16px 16px 16px;
-    border: none;
-    background: rgba(0, 0, 0, 0.03);
-    line-height: 1.4em;
-    font-family: inherit;
-    font-weight: inherit;
-    font-size: 24px;
-    width: 100%;
-    border-bottom: 1px solid rgba(175, 171, 175, 0.4);
+.taskinput {
+  padding: 16px 16px 16px 16px;
+  border: none;
+  background: rgba(0, 0, 0, 0.03);
+  line-height: 1.4em;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 24px;
+  width: 100%;
+  border-bottom: 1px solid rgba(175, 171, 175, 0.4);
 }
-.myspan{
-    width: 80%;
+.myspan {
+  width: 80%;
 }
-.taskinput:focus{
-    outline: 0;
+.taskinput:focus {
+  outline: 0;
 }
 
-.deletebutton{
-    position: relative;
-    top: 0;
-    bottom: 0;
-    padding: 2px 5px;
-    border : 0px;
-    background: none;
-    font-size: 30px;
-    font-family: inherit;
-    color: palevioletred;
-    appearance: none;
-    margin-bottom: 10px;
-    font-weight: 900;
-    content: '×';
-    margin-bottom: 11px;
+.deletebutton {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  padding: 2px 5px;
+  border: 0px;
+  background: none;
+  font-size: 30px;
+  font-family: inherit;
+  color: palevioletred;
+  appearance: none;
+  margin-bottom: 10px;
+  font-weight: 900;
+  content: "×";
+  margin-bottom: 11px;
 }
